@@ -1,3 +1,5 @@
 function sayHello() {
-  $('#result').html('Hello');
+  ons.notification.alert('Button is tapped!');
+  var txtCity = $('#txtCity').val();
+  $('#result').html(txtCity);
 }
